@@ -1,0 +1,17 @@
+.category{
+  height: 2.5em;
+  padding: 0 1em;
+}
+.category .icon{
+  margin-right: 10px;
+}
+
+.show-sub-category{
+  display: block;
+}
+.sub-header{
+  padding: 0 .8em;
+  font-weight: 500;
+  font-size:.8em;
+  color:#adadad;
+}

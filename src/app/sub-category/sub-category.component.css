@@ -1,0 +1,8 @@
+.sub-category{
+  height: 2.5em;
+  padding: 0 1em;
+}
+.sub-category .icon{
+  visibility: hidden;
+  margin-right: 10px;
+}

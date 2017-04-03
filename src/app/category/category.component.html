@@ -1,0 +1,17 @@
+<section class="row" style="background-color:red;">
+  <div class="col-xs paper">
+    <div class="category row middle-xs" (click)="handleClick()">
+      <i [ngClass]="{'icon fa': true, 'fa-caret-square-o-up':isSelected, 'fa-caret-square-o-down':!isSelected}"></i>
+      <section class="name">{{category.name}}</section>
+      <section class="col-xs"></section>
+      <section>vre</section>
+      <section>vre32423432</section>
+    </div>
+    <section *ngIf="category.hasSubCategory && isSelected">
+      <div class="sub-header">
+        Sub Category
+      </div>
+      <app-sub-category *ngFor="let subCategory of category.subCategories" [category]="subCategory"></app-sub-category>
+    </section>
+  </div>
+</section>
