@@ -5,9 +5,18 @@
 .category .icon{
   margin-right: 10px;
 }
-
-.show-sub-category{
-  display: block;
+.category-wrap{
+  margin: 0 .5em;
+  transition: .2s ease-out;
+}
+.selected{
+  margin: .6em 0;
+}
+.selected > .category{
+  font-weight: 500;
+}
+.paper.selected{
+  box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.5);
 }
 .sub-header{
   padding: 0 .8em;

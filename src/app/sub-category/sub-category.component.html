@@ -4,8 +4,22 @@
       <i class="fa fa-circle icon"></i>
       <section class="name">{{category.name}}</section>
       <section class="col-xs"></section>
-      <section>{{category.amount}}</section>
-      <section>vre32423432</section>
+      <section class="col-xs-2" style="text-align:right;">
+        <div class="amount">{{category.amount}}</div>
+      </section>
+      <section class="col-xs-2" style="text-align:right;">
+        <div class="amount">
+          <div class="row middle-xs">
+            <div class="col-xs">{{category.amount}}</div>
+            <div style="color:green; font-size:12px;">
+              <i class="fa fa-arrow-up"></i>(10%)
+            </div>
+            <button>
+              <i class="fa fa-pencil"></i>
+            </button>
+          </div>
+        </div>
+      </section>
     </div>
   </div>
 </section>
