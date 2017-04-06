@@ -1,6 +1,6 @@
-<section [ngClass]="{'row category-wrap':true, 'selected':isSelected}" (click)="handleClick()">
+<section [ngClass]="{'row category-wrap':true, 'selected':isSelected}">
   <div [ngClass]="{'col-xs paper':true, 'selected':isSelected}"> {{message}}
-    <div class="category row middle-xs">
+    <div class="category row middle-xs" (click)="handleClick()">
       <i [ngClass]="{'icon fa': true, 'fa-caret-square-o-up':isSelected, 'fa-caret-square-o-down':!isSelected}"></i>
       <section class="name">{{category.name}}</section>
       <section class="col-xs"></section>

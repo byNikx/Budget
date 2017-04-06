@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { BudgetComponent } from './budget/budget.component';
 import { CategoryComponent } from './category/category.component';
 import { SubCategoryComponent } from './sub-category/sub-category.component';
+import { GoogleChartComponent } from './google-chart/google-chart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BudgetComponent,
     CategoryComponent,
-    SubCategoryComponent
+    SubCategoryComponent,
+    GoogleChartComponent
   ],
   imports: [
     BrowserModule,
